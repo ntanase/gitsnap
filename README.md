@@ -9,4 +9,4 @@ install imguru utility from https://github.com/FigBug/imguru
 install imagesnap utility from https://github.com/aw/imagesnap( also works using brew install imagesnap)
 smile
 
-#also check github commit message emoji http://www.emoji-cheat-sheet.com/
+also check github commit message emoji http://www.emoji-cheat-sheet.com/
