@@ -5,6 +5,7 @@ case "${1}" in
         echo -n "snaps user picture, uploads it to imgur.com and adds link to commit message"
         ;;
     * )
+		echo ":trollface:" >> $1
 		imagesnap -q -w 3 photo.jpg 
 		imguru photo.jpg >> $1
 		rm photo.jpg
