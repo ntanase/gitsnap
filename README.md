@@ -9,7 +9,7 @@ snaps your picture and adds a link to it to your commit
 * smile
 
 #used utilities
-* imguru https://github.com/aw/imagesnap
+* imguru https://github.com/FigBug/imguru
 * imagesnap https://github.com/aw/imagesnap 
 
 also check github commit message emoji http://www.emoji-cheat-sheet.com/
