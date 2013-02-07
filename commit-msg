@@ -1,0 +1,12 @@
+#!/bin/bash
+                     
+case "${1}" in
+    --about )
+        echo -n "snaps user picture, uploads it to imgur.com and adds link to commit message"
+        ;;
+    * )
+		imagesnap -q -w 3 photo.jpg 
+		imguru photo.jpg >> $1
+		rm photo.jpg
+		;;
+esac
